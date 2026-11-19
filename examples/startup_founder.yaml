@@ -1,0 +1,34 @@
+name: "Technical Startup Founder"
+handle: "@ExampleFounder"
+domain_focus: "B2B SaaS GTM, pricing iteration, and founder-led engineering"
+language: "en"
+aliases:
+  - "Example Founder"
+collab_queries:
+  - "\"Example Founder\" podcast"
+  - "\"Example Founder\" YC interview"
+excluded_channels:
+  - "ai clips"
+  - "motivation shorts"
+speakers:
+  - label: "Founder (Core)"
+    role: "core"
+    patterns: ["founder", "ceo", "primary speaker"]
+  - label: "Co-Founder / CTO"
+    role: "co_mentor"
+    patterns: ["cto", "co-founder"]
+  - label: "Podcast Host"
+    role: "guest"
+    patterns: ["host", "interviewer"]
+domains:
+  - id: "01_gtm_pricing"
+    title: "GTM Playbook, ICP & Pricing Strategy"
+    keywords: ["pricing", "icp", "outbound", "retention", "churn", "enterprise"]
+    sections: ["2", "4"]
+  - id: "02_engineering_org"
+    title: "Engineering Culture, Hiring & Post-Mortems"
+    keywords: ["hiring", "architecture", "monolith", "incident", "latency", "deploy"]
+    sections: ["3", "6"]
+entity_standardizations:
+  - "Distinguish founder-verified operating metrics from interviewer speculation."
+  - "Record exact pricing tiers, ARR milestones, and [VideoID @ MM:SS] citations."

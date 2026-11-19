@@ -1,0 +1,34 @@
+name: "AI Systems Researcher"
+handle: "@ExampleAILab"
+domain_focus: "reasoning architectures, evals, and inference optimization"
+language: "en"
+aliases:
+  - "Example AI Researcher"
+collab_queries:
+  - "\"Example AI Researcher\" keynote"
+  - "\"Example AI Researcher\" Dwarkesh OR Lex OR Latent Space"
+excluded_channels:
+  - "highlight clips"
+  - "reaction channel"
+speakers:
+  - label: "Lead Researcher (Core)"
+    role: "core"
+    patterns: ["researcher", "lead author"]
+  - label: "Lab Collaborator"
+    role: "co_mentor"
+    patterns: ["co-author", "collaborator"]
+  - label: "Host"
+    role: "guest"
+    patterns: ["host", "moderator"]
+domains:
+  - id: "01_training_scaling"
+    title: "Pre-Training, RLVR & Scaling Laws"
+    keywords: ["scaling", "rlvr", "grpo", "pretraining", "loss", "tokens"]
+    sections: ["2", "3"]
+  - id: "02_inference_evals"
+    title: "KV Cache, Speculative Decoding & Benchmark Pitfalls"
+    keywords: ["kv cache", "quantization", "eval", "contamination", "latency"]
+    sections: ["3", "4", "6"]
+entity_standardizations:
+  - "Transcribe formulas, hyperparameter schedules, and ablation figures shown on slides."
+  - "Cite [VideoID @ MM:SS] for every empirical claim."

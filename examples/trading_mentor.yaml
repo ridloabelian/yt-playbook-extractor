@@ -1,0 +1,54 @@
+name: "Arist MD / Mancing Dollar"
+handle: "@Mancing_Dollar"
+domain_focus: "quantitative reversal & multi-account trading methodology"
+language: "id"
+aliases:
+  - "Arist Wang"
+  - "Arist WPA"
+  - "Ko Aris"
+collab_queries:
+  - "Mancing Dollar Arist podcast"
+  - "Arist WPA trading interview"
+excluded_channels:
+  - "clipper"
+  - "reaction"
+  - "shorts hub"
+excluded_video_ids:
+  - "CcVjwp0JAa4"
+speakers:
+  - label: "Arist MD Core"
+    role: "core"
+    patterns: ["arist", "arist\\s*md", "arist\\s*wpa", "arist\\s*wang"]
+  - label: "Ragnaray"
+    role: "co_mentor"
+    patterns: ["ragnaray", "bang\\s*ray", "bang\\s*rey"]
+  - label: "Franz (@franzz_md)"
+    role: "co_mentor"
+    patterns: ["\\bfranz\\b", "franzz"]
+  - label: "Danial"
+    role: "co_mentor"
+    patterns: ["\\bdanial\\b"]
+  - label: "Guest Case Study"
+    role: "guest"
+    patterns: ["denny santoso", "arlind", "mustofa"]
+domains:
+  - id: "01_philosophy_macro"
+    title: "Trading Philosophy, Halte vs Terminal & Intermarket Crash Cycle"
+    keywords: ["ihsg", "crash", "makro", "us10y", "boj", "halte", "terminal"]
+    sections: ["1", "2", "5"]
+  - id: "02_structure_zones"
+    title: "Market Structure, PD Range, Wyckoff, S&D & Liquidity"
+    keywords: ["struktur", "structure", "bos", "choch", "supply", "demand", "imbalance", "liquidity", "eqh", "eql"]
+    sections: ["2", "3"]
+  - id: "03_harmonic_execution"
+    title: "Harmonic / Stingray PRZ, Indicators & Scalping Setup Cards"
+    keywords: ["harmonic", "stingray", "prz", "bat", "butterfly", "scalping", "fibo"]
+    sections: ["3", "4"]
+  - id: "04_risk_psychology"
+    title: "Money Management, Lambung Kapal & Post-MC Recovery"
+    keywords: ["money management", "lambung kapal", "psikologi", "margin call", "lot", "risk"]
+    sections: ["6", "7"]
+entity_standardizations:
+  - "WPA stands for Wakil Penasihat Berjangka (Indonesian Bappebti Futures Advisor License)."
+  - "Cite [VideoID @ MM:SS] for every concrete rule, chart setting, or numeric parameter."
+  - "Separate Core Persona DNA strictly from Co-Mentor variations and Guest case studies."
